@@ -3,6 +3,9 @@ import { Card, Col, Row } from 'reactstrap'
 import { primaryColor } from '../AppColors/Colors'
 import phone from '../images/phone.png'
 import visa from '../images/visa.png'
+import verve from '../images/verve.png'
+import mvisa from '../images/mvisa.jpg'
+import bank from '../images/bank.png'
 import master from '../images/master.png'
 export default function Multiple({ Header, Body }) {
     const multipleData = [
@@ -16,12 +19,15 @@ export default function Multiple({ Header, Body }) {
         },
         {
             cardTitle: 'Verve',
+            cardImage: verve
         },
         {
-            cardTitle: 'Bank'
+            cardTitle: 'Bank',
+            cardImage:bank
         },
         {
-            cardTitle: 'mVisa QR'
+            cardTitle: 'mVisa QR',
+            cardImage:mvisa
         },
         {
             cardTitle: 'Phone Number',
@@ -42,7 +48,7 @@ export default function Multiple({ Header, Body }) {
                                 <p>{item.cardTitle}</p>
                                 <hr className='m-0'></hr>
                                 <div className='text-center'>
-                                    <img src={item.cardImage} alt='' style={{ width: 50, borderRadius:5, margin:5 }} />
+                                    <img src={item.cardImage} alt='' style={{ width: 50, borderRadius: 5, margin: 5 }} />
                                 </div>
                             </Card>
                         </Col>
