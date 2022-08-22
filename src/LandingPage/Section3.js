@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Row } from 'reactstrap'
 import { primaryColor } from '../AppColors/Colors'
 import social from '../images/social.jpg'
-import i from '../images/dot.jpg'
+// import i from '../images/dot.jpg'
 
 export default function Section3() {
     return (
