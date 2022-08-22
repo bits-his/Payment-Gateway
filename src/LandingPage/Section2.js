@@ -3,13 +3,14 @@ import { Col, Row } from 'reactstrap'
 import { primaryColor, whiteColor } from '../AppColors/Colors'
 import digital from '../images/digital.jpg'
 export default function Section2() {
-  return (
-    <div>
-      <div className='section-2'>
+    return (
+        <div>
+            <div className='section-2'>
                 <Row className='m-0'>
                     <Col md={6} className=''>
                         <div className='section-content'>
                             <div>
+                                <i class="fa-solid fa-money-check fa-2x shadow p-3" style={{ color: whiteColor, borderRadius: 0 }}></i>
                                 <h1 className='section-head'>Digital Payments</h1>
                                 <p className='section-2-p'>As an ecommerce business owner, find everything needed to integrate your website or mobile app.</p>
                                 <button className='shadow section-2-btn' style={{ backgroundColor: whiteColor, color: primaryColor }}>Learn More...</button>
@@ -25,6 +26,6 @@ export default function Section2() {
                     </Col>
                 </Row>
             </div>
-    </div>
-  )
+        </div>
+    )
 }

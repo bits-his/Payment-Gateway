@@ -11,6 +11,7 @@ export default function Section4() {
                     <Col md={6} className='section-4-row'>
                         <div className='section-content'>
                             <div>
+                            <i class="fa-solid fa-credit-card fa-2x shadow p-3" style={{color:whiteColor, borderRadius:0}}></i>
                                 <h1 className='section-4-head' style={{ color: whiteColor }}>Next-Gen Payments</h1>
                                 <p className='section-4-p' style={{ color: whiteColor }}>Bits Pay solutions are suited for banks, financial institutions and fintechs.</p>
                                 <button className='shadow section-4-btn' style={{ backgroundColor: whiteColor, color: primaryColor }}>Learn More...</button>

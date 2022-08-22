@@ -23,11 +23,11 @@ export default function Multiple({ Header, Body }) {
         },
         {
             cardTitle: 'Bank',
-            cardImage:bank
+            cardImage: bank
         },
         {
             cardTitle: 'mVisa QR',
-            cardImage:mvisa
+            cardImage: mvisa
         },
         {
             cardTitle: 'Phone Number',
@@ -45,10 +45,12 @@ export default function Multiple({ Header, Body }) {
                     {multipleData.map((item, index) => (
                         <Col md={2}>
                             <Card className='shadow multiple-card p-4'>
-                                <p>{item.cardTitle}</p>
+                                <p className='m-0'>{item.cardTitle}</p>
                                 <hr className='m-0'></hr>
-                                <div className='text-center'>
-                                    <img src={item.cardImage} alt='' style={{ width: 50, borderRadius: 5, margin: 5 }} />
+                                <div className='text-center' style={{ display: 'flex', justifyContent:'center', alignItems: 'center', height: 100 }}>
+                                    <div className='text-center'>
+                                        <img src={item.cardImage} alt='' style={{ width: 50, borderRadius: 5, marginLeft: 'auto', marginRight: 'auto', display: 'block' }} />
+                                    </div>
                                 </div>
                             </Card>
                         </Col>
