@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <div className='footer'>
             <Row className='m-0 p-4'>
-                <Col md={3}><h3 style={{ fontWeight: 'bold' }}>Bits-Pay</h3>
+                <Col md={3}><h3 style={{ fontWeight: 'bold' }}>Kunaa-Pay</h3>
                     <p>Sell online, process payments, build financial products, or use business tools designed to grow your business.</p>
                     {/* <p>Sell online, process payments, build financial products, or use business tools designed to grow your business.</p> */}
                 </Col>
@@ -38,7 +38,7 @@ export default function Footer() {
                 </Col>
             </Row>
             <Row className='m-0 pt-4 p-1 text-center footer-last-section'>
-                <Col md={4}><p>Copyright © 2022 Bits Pay.
+                <Col md={4}><p>Copyright © 2022 Kunaa Pay.
                     All rights reserved.</p></Col>
                 <Col md={4}>
                     <img src={facebook} alt='' style={{width:25, margin:'0 10px'}}/>

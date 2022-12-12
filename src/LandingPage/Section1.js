@@ -8,7 +8,7 @@ export default function Section1() {
                 <Col md={6}>
                     <div className='brandname-div'>
                         <div style={{ marginLeft: 40 }}>
-                            <h1 className='brandname' style={{ color: whiteColor }}>Bits Pay</h1>
+                            <h1 className='brandname' style={{ color: whiteColor }}>Kunaa</h1>
                             <p className='desc' style={{ color: whiteColor }}>Sell online, process payments, build financial products, or use business tools designed to grow your business.</p>
                             <button className='signup-btn shadow' style={{ backgroundColor: primaryColor, color: whiteColor }}>Get started now</button>
                         </div>
