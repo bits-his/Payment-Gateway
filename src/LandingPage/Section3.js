@@ -25,7 +25,7 @@ export default function Section3() {
                             <div>
                                 <i className="fa-solid fa-icons fa-2x shadow p-3" style={{ color: primaryColor, borderRadius: 0 }}></i>
                                 <h1 className='section-3-head' style={{ color: primaryColor }}>Social Commerce</h1>
-                                <p className='section-3-p' style={{ color: primaryColor }}>Freelancer ? Turn your passion to profit and get paid in seconds with Bits Pay social media links.</p>
+                                <p className='section-3-p' style={{ color: primaryColor }}>Freelancer ? Turn your passion to profit and get paid in seconds with Kunaa Pay social media links.</p>
                                 <button className='shadow section-3-btn' style={{ backgroundColor: primaryColor }}>Learn More...</button>
                             </div>
                         </div>
