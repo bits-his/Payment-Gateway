@@ -32,12 +32,12 @@ export default function Footer() {
                 <Col md={3}>
                     <h5 style={{ fontWeight: 'bold' }}>Contact Us</h5>
                     <p>Office: Floor 1, African Alliance Building, No 1 Sani Abacha Way, Kano.</p>
-                    <p>+234 123 456 789 </p>
-                    <p>+234 123 456 789 </p>
-                    <p>+234 123 456 789 </p>
+                    <p className='m-0'>+234 123 456 789 </p>
+                    <p className='m-0'>+234 123 456 789 </p>
+                    <p className='m-0'>+234 123 456 789 </p>
                 </Col>
             </Row>
-            <Row className='m-0 pt-4 p-1 text-center footer-last-section'>
+            <Row className='m-0 p-4 pt-4 p-1 footer-last-section'>
                 <Col md={4}><p>Copyright © 2022 Bits Pay.
                     All rights reserved.</p></Col>
                 <Col md={4}>
