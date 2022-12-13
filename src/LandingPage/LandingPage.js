@@ -16,7 +16,7 @@ export default function LandingPage() {
                 <Navbarrr />
                 <Section1 />
             </div>
-            <SectionDivider Header='Payments Made Easy With Kuna Pay' Body='Everything designed to simplify payments so you can focus on building a successful business.' />
+            <SectionDivider Header='Payments Made Easy With Kunaa Pay' Body='Everything designed to simplify payments so you can focus on building a successful business.' />
             <Section2 />
             <Section3 />
             {/* <SectionDivider Header='Bits Pay Accepts Multiple Payment Methods' Body='Grow your business, go global, and boost transaction success rates by giving your customers multiple choice of payment.' /> */}
